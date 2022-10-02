@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ödeme Sayfası</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lato:wght@900&family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+        <style type="text/css"></style>
+        <style>
+             *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                outline: none; border: none;
+                text-transform: capitalize;
+                transition: all 2.s linear;
+             }
+            
+            body {
+                background-color: #120415;
+            }
+            .first,.second{
+                box-sizing: border-box;
+                color: whitesmoke;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+            }
+            h1{
+                text-align: center;
+                color: whitesmoke;
+            }
+            .only {
+                font-size: 30px;
+            }
+        </style>
+    </head> 
+    <body>
+        <main>
+            <header>
+                <h1 style="color: whitesmoke;">Ödeme Bölümü</h1>
+            </header>
+            <table class="first">
+                <form>
+                    <tr>
+                        <td>
+                            <label for="İsim">İsim</label>
+                            <input type="text" id="İsim" placeholder="Kartın üzerindeki isim"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Soyisim">Soyisim</label>
+                            <input type="text" id="soyisim" placeholder="Kartın üzerindeki soyisim"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="E-posta">E-posta</label>
+                            <input type="text" id="e-posta" placeholder="örnek@outlook.com"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="adres">Adres</label>
+                            <input type="text" id="adres" placeholder="Şehir İl İlçe Sokak"/>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </main>
+    </body>
+    <footer>
+        <table class="second">
+            <h1>Kart Bilgileri</h1>
+                <form>
+                    <tr>
+                        <td>
+                            <h2>Ödeme Seçenekleri</h2>
+                            <img src="kart.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="kartnumarasi">Kart Numarası</label>
+                            <input type="text" id="adres" placeholder="1111-2222-3333-4444"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="sonkullanmatarihi">Son Kullanma Tarihi</label>
+                            <input type="text" id="Ay" placeholder="01/01/2030"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="sonkullanmatarihi">Son Kullanma Yılı</label>
+                            <input type="text" id="Ay" placeholder="2024-2025-2026"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="CVV" placeholder="123"/>
+                        </td>
+                    </tr>
+                    <tr class="only">
+                        <td>
+                            <a href="succes.html" class="button" style="text-decoration: none">Ödeme Yap</a>
+                        </td>
+                    </tr>
+                    <tr class="only">
+                        <td>
+                            <a href="product.html" class="button" style="text-decoration: none">Anasayfaya Git</a>
+                        </td>
+                    </tr>
+                </form>
+        </table>
+    </footer>
+</html>

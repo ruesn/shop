@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head> <title>Moon Shop</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lato:wght@900&family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+        <style type="text/css"></style>
+        <style>
+            body {background-color: #120415;}
+            .header{
+                text-align: center;
+            }
+            .header li {
+                display: inline;
+                padding: 35px;
+                font-size: 50px;
+            }
+            .product,a{
+                color: wheat;
+                text-decoration: none;
+            }
+            .product img{
+                width: 20%; height: 25%;
+                margin: 5%;
+            }
+            .prods{
+                text-align: center;
+                font-size: 50px;
+                color: whitesmoke;
+            }
+            .footer{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%; 
+                font-size: 40px;
+                color: whitesmoke;
+            }
+            .button{
+                text-align: center;
+                font-size: 40px;
+                color: aquamarine;
+                border: 3px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <header class="header">
+                <center><img src="MoonP.jpg"></center>
+                <nav>
+                    <ul>
+                      <li><a href="register.html">Kayıt Ol</a></li>
+                      <li><a href="login.html">Giriş Yap</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section>
+                <article class="prods">
+                   <strong><p>Ürünler</p></strong>
+                </article>
+            </section>
+            <section class="product">
+                <article>
+                    <div style="text-align: center;">
+                        <h2>Kırmızı Mum</h2>
+                        <br><h3>( Fiyat:39.99₺ )</h3>
+                    <img src="candlered.jpg">
+                    </div>
+                </article>
+            </section>
+            <section class="product">
+                <article>
+                    <div style="text-align: center;">
+                        <h2>Beyaz Mum</h2>
+                        <br><h3>( Fiyat:39.99₺ )</h3>
+                    <img src="candlewhite.jpg">
+                    </div>
+                </article>
+            </section>
+            <section class="product">
+                <article>
+                    <div style="text-align: center;">
+                        <h2>Yeşil Mum</h2>
+                        <br><h3>( Fiyat:39.99₺ )</h3>
+                    <img src="candlegreen.jpg">
+                    </div>
+                </article>
+            </section>
+            <section class="product">
+                <article>
+                    <div style="text-align: center;">
+                        <h2>Kahverengi Mum</h2>
+                        <br><h3>( Fiyat:39.99₺ )</h3>
+                    <img src="candlebrown.jpg">
+                    </div>
+                </article>
+                <section class="button">
+                    <a href="checkout.html" class="button">Tıkla ve Ödeme Yap</a>
+                </section>
+            </section>
+            <footer class="footer">
+                <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+                <ion-icon name="card-outline"></ion-icon>
+                <h2>Ödemelerinizi Güvenle Yapabilirsiniz.</h2>
+            </footer>
+        </main>
+    </body>

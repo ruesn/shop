@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Giriş Yap</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lato:wght@900&family=Open+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+        <style type="text/css"></style>
+        <style>
+            body{
+                background-color:#120415;
+            }
+            .section{
+                font-size: 40px;
+                color: whitesmoke;
+                box-sizing: border-box;
+                display: flex;
+                justify-content: center;
+                margin-top: 150px;
+            }
+            .table{
+                color: whitesmoke;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 5px;
+                font-size: 35px;
+            }
+            .table input{
+                font-size: 30px;
+            }
+            .submit{
+                width: 50%;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <section class="section">
+                <h1>Giriş Yap</h1>
+            </section>
+            <form autocomplete="off">
+                <table class="table">
+                    <tr>
+                        <td>
+                            <label for="IDorMail">Kullanıcı Adı</label>
+                          </td>
+                          <td>:</td>
+                          <td class="input-line">
+                            <input type="text" id="surname" placeholder="ID veya Mail" />
+                          </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Şifre</label>
+                          </td>
+                          <td>:</td>
+                          <td class="input-line">
+                            <input type="password" id="password" placeholder="Şifre" />
+                          </td>
+                    </tr>
+                    <tr>
+                        <td class="submit">
+                            <input type="submit">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="product.html" class="button">Anasayfaya Git</a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </main>
+    </body>    
+</html>
